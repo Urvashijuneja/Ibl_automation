@@ -1,0 +1,26 @@
+{
+  "name": "apitests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "apitest": "cross-env ENV=test cucumber-js ./src/features/**/*.feature --tags \"@Example1\" --require-module ts-node/register --require ./src/step-definitions/**/**/*.ts -f html:test-results/cucumber_report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.47.0",
+    "axios": "^1.7.7",
+    "chai": "^4.3.7",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "qs": "^6.13.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "winston": "^3.14.2"
+  }
+}
