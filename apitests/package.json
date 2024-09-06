@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "apitest": "cross-env ENV=test cucumber-js ./src/features/**/*.feature --tags \"@Example1\" --require-module ts-node/register --require ./src/step-definitions/**/**/*.ts -f html:test-results/cucumber_report.html"
+    "apitest": "cross-env ENV=test cucumber-js ./src/features/**/*.feature --tags \"@response-verification\" --require-module ts-node/register --require ./src/step-definitions/**/**/*.ts -f html:test-results/cucumber_report.html"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "axios": "^1.7.7",
     "chai": "^4.3.7",
     "cross-env": "^7.0.3",
+    "date-fns": "^3.6.0",
     "dotenv": "^16.4.5",
     "fs-extra": "^11.2.0",
     "qs": "^6.13.0",

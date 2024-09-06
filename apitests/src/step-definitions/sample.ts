@@ -15,10 +15,10 @@ When('I send a GET request to the user endpoint', async function () {
 
 Then('the response status should be {int}', function (statusCode) {
   expect(response.status).toBe(statusCode);
-  commonContext.logger.info("API executed successfully with "+ statusCode)
+  commonContext.logger.info("API executed successfully with " + statusCode)
 });
 
-Then('the response should contain user details',async  function () {
+Then('the response should contain user details', async function () {
   expect(response.data).toHaveProperty('id');
   expect(response.data).toHaveProperty('name');
   expect(response.data).toHaveProperty('email');
