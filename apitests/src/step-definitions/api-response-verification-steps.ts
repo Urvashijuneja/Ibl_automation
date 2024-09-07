@@ -1,20 +1,20 @@
 import { Given, Then } from '@cucumber/cucumber';
-import { setGlobalResponse, getGlobalResponse } from "../commonContext/common-response";
-import { axios } from "../../setup/world";
-import { commonContext } from '../../setup/global';
-import { APIAssertions } from '../api-assertions';
+import { setGlobalResponse, getGlobalResponse } from "./commonContext/common-response";
+import { axios } from "../setup/world";
+import { commonContext } from '../setup/global';
+import { APIAssertions } from './api-assertions';
 import { parse, isValid, format } from 'date-fns';
 
 let response: any;
 let apiAssertions: APIAssertions;
 let responseTime: number;
 
-Given('I make a GET request to {string} endpoint', async function (endpoint: string) {
+Given('a GET request is sent to {string} endpoint', async function (endpoint: string) {
   response = await getIblEndpoint(endpoint);
   setGlobalResponse(response);
 });
 
-Then('the HTTP status code should be {string}', async function (statusCode: string) {
+Then('API returns status code {string}', async function (statusCode: string) {
   response = getGlobalResponse(response);
   apiAssertions = new APIAssertions();
   let intStatusCode: number = parseInt(statusCode, 10);
@@ -48,7 +48,7 @@ Then('verify the error object contains {string} and {string} properties', async 
 
   // Verify that the "http_response_code" property exists and matches the expected value
   if (response.data.error.http_response_code !== 404) {
-    throw new Error("The http_response_code property is missing or does not match the expected value in the error object");
+    throw new Error("The 'http_response_code property' is missing or does not match the expected value in the error object");
   }
 
   commonContext.logger.info("Verified the error object contains 'details' and 'http_response_code' properties");
