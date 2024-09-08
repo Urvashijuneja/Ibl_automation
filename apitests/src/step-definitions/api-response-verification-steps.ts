@@ -83,6 +83,7 @@ Then('verify the "Date" value in the response headers', async function () {
   commonContext.logger.info("The 'Date' header value is valid and correctly formatted");
 });
 
+//Function that sents GET request to Ibl API and calculates response time
 async function getIblEndpoint(endpoint: string) {
   const endpointUrl = endpoint;
   const startTime = Date.now();  // Start time
@@ -97,6 +98,7 @@ async function getIblEndpoint(endpoint: string) {
 
   const endTime = Date.now();  // End time
   responseTime = endTime - startTime;  // Store the response time
+  
   // Log the response time
   commonContext.logger.info("Response time: " + responseTime + " milliseconds");
   return response;
