@@ -1,0 +1,6 @@
+info: Sep-08-2024 19:06:33: 	Scenario: Verify 200 status code and response time fe0eebba-c0a3-4897-bff9-b030c9730270
+info: Sep-08-2024 19:06:33: 	https://testapi.io/api/RMSTest/ibltest
+info: Sep-08-2024 19:06:33: 	Response time: 655 milliseconds
+info: Sep-08-2024 19:06:33: 	Verified status code successfully: 200
+info: Sep-08-2024 19:06:33: 	Actual response time: 655 milliseconds
+info: Sep-08-2024 19:06:33: 	Response time is within the allowed limit:655 milliseconds

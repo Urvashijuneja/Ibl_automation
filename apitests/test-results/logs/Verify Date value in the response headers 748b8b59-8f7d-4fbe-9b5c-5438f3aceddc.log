@@ -1,0 +1,5 @@
+info: Sep-08-2024 19:06:35: 	Scenario: Verify Date value in the response headers 748b8b59-8f7d-4fbe-9b5c-5438f3aceddc
+info: Sep-08-2024 19:06:35: 	https://testapi.io/api/RMSTest/ibltest
+info: Sep-08-2024 19:06:36: 	Response time: 217 milliseconds
+info: Sep-08-2024 19:06:36: 	The 'Date' header in the response is: Sun, 08 Sep 2024 18:06:36 GMT
+info: Sep-08-2024 19:06:36: 	The 'Date' header value is valid and correctly formatted
