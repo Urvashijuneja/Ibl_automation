@@ -1,0 +1,4 @@
+info: Sep-08-2024 19:06:37: 	Scenario: Verify transmission start date should be before end date 402d66f1-3718-4f98-a6ba-a529c6146367
+info: Sep-08-2024 19:06:37: 	https://testapi.io/api/RMSTest/ibltest
+info: Sep-08-2024 19:06:37: 	Response time: 227 milliseconds
+info: Sep-08-2024 19:06:37: 	Verified that the 'transmission_start' date is before the 'transmission_end' date for all items

@@ -1,0 +1,5 @@
+info: Sep-08-2024 19:06:34: 	Scenario: Verify 404 status code and the error object properties in response a4c398dc-0dfa-481a-81a2-228b4fc820e2
+info: Sep-08-2024 19:06:34: 	https://testapi.io/api/RMSTest/ibltest/2023-09-11
+info: Sep-08-2024 19:06:34: 	Response time: 122 milliseconds
+info: Sep-08-2024 19:06:34: 	Verified status code successfully: 404
+info: Sep-08-2024 19:06:34: 	Verified the error object contains 'details' and 'http_response_code' properties

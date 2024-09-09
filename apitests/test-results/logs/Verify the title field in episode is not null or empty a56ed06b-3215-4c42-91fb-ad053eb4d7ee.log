@@ -1,0 +1,4 @@
+info: Sep-08-2024 19:06:39: 	Scenario: Verify the title field in episode is not null or empty a56ed06b-3215-4c42-91fb-ad053eb4d7ee
+info: Sep-08-2024 19:06:39: 	https://testapi.io/api/RMSTest/ibltest
+info: Sep-08-2024 19:06:39: 	Response time: 209 milliseconds
+info: Sep-08-2024 19:06:39: 	Verified that the 'title' field in all episodes is not null or empty

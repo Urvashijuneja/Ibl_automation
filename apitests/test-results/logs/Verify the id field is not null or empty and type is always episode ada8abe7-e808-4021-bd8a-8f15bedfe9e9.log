@@ -1,0 +1,5 @@
+info: Sep-08-2024 19:06:38: 	Scenario: Verify the id field is not null or empty and type is always episode ada8abe7-e808-4021-bd8a-8f15bedfe9e9
+info: Sep-08-2024 19:06:38: 	https://testapi.io/api/RMSTest/ibltest
+info: Sep-08-2024 19:06:38: 	Response time: 209 milliseconds
+info: Sep-08-2024 19:06:38: 	Verified that all items have a non-null and non-empty 'id' field
+info: Sep-08-2024 19:06:38: 	Verified that the 'type' field in all episodes is 'episode'

@@ -1,0 +1,4 @@
+info: Sep-08-2024 19:06:40: 	Scenario: Verify only one episode has live field as true c25b16a8-63bc-435e-b213-a899abb7d078
+info: Sep-08-2024 19:06:40: 	https://testapi.io/api/RMSTest/ibltest
+info: Sep-08-2024 19:06:41: 	Response time: 214 milliseconds
+info: Sep-08-2024 19:06:41: 	Verified that exactly one episode has the 'live' field set to true
